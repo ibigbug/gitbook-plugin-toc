@@ -13,7 +13,8 @@ Add `<!-- toc -->` to the markdown files. When you build the book, it will inser
 	"pluginsConfig": {
 		"toc": {
 			"addClass": true,
-			"className": "toc"
+			"className": "toc",
+      "maxDepth": 6
 		}
 	}
 }

@@ -4,10 +4,15 @@ module.exports = {
 	book: {},
 	hooks: {
 		"page:before": function (page) {
+      var md = 6;
+      if (this.options.pluginsConfig.toc.maxDepth) {
+        md = this.options.pluginsConfig.toc.maxDepth;
+      }
 			page.content = toc.insert(page.content, {
 				slugify: function (str) {
 					return encodeURI(str.toLowerCase()).replace(/%20/g, '-');
-				}
+        },
+        maxdepth: md,
 			});
 			if (this.options.pluginsConfig.toc.addClass) {
 				var className = this.options.pluginsConfig.toc.className || 'toc';

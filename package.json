@@ -1,19 +1,19 @@
 {
-  "name": "gitbook-plugin-toc",
+  "name": "gitbook-plugin-toc2",
   "description": "Add table of content to page",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "engines": {
     "gitbook": "*"
   },
-  "homepage": "https://github.com/whzhyh/gitbook-plugin-toc",
+  "homepage": "https://github.com/ibigbug/gitbook-plugin-toc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whzhyh/gitbook-plugin-toc.git"
+    "url": "https://github.com/ibigbug/gitbook-plugin-toc.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whzhyh/gitbook-plugin-toc/issues"
+    "url": "https://github.com/ibigbug/gitbook-plugin-toc/issues"
   },
   "dependencies": {
     "markdown-toc": "^0.11.0"
@@ -22,5 +22,8 @@
     "gitbook",
     "plugin"
   ],
-  "author": "Hongzheng Wang <whzhyh@gmail.com>"
+  "author": [
+    "Hongzheng Wang <whzhyh@gmail.com>",
+    "Yuwei Ba <xiaobayuwei@gmail.com>"
+  ]
 }
