@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-toc2",
+  "name": "gitbook-plugin-toc3",
   "description": "Add table of content to page",
   "main": "index.js",
   "version": "0.1.0",
